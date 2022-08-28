@@ -1,5 +1,8 @@
 # NATS Simple Pub-Sub Mechanism
-This is a basic pub-sub project using NATS. There is one publisher who publishes a "Hello World" message to a subject called "foo". There are two subscribers who subscribes to "foo" and receives the message as soon as it is published.
+This is a basic pub-sub project using NATS. There is one publisher who publishes a "Hello World" message to a subject called "foo". 
+There are two subscribers who subscribes to "foo" and receives the message as soon as it is published.
+
+Read the [documentation on Pub/Sub](https://docs.nats.io/nats-concepts/core-nats/pubsub).
 
 ## Docker Installation of NATS
 [Installing via Docker](https://docs.nats.io/running-a-nats-service/introduction/installation#installing-via-docker)
