@@ -1,0 +1,11 @@
+*
+
+!/publisher/main.go
+!/subscriber1/main.go
+!/subscriber2/main.go
+
+!.gitignore
+!docker-compose.yaml
+!go.mod
+!go.sum
+!README.md
