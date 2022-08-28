@@ -19,6 +19,13 @@ services:
     command: "--cluster_name NATS --cluster nats://0.0.0.0:6222 --routes=nats://ruser:T0pS3cr3t@nats:6222"
     networks: ["nats"]
     depends_on: ["nats"]
+  prometheus:
+    image: natsio/prometheus-nats-exporter:latest
+    command: "-varz -subz http://nats:8222"
+    ports:
+      - "7777:7777"
+    networks: ["nats"]
+    depends_on: ["nats"]
 
 networks:
   nats:
