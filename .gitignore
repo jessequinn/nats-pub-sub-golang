@@ -1,7 +1,10 @@
 *
 
+!/publisher/
 !/publisher/main.go
+!/subscriber1/
 !/subscriber1/main.go
+!/subscriber2/
 !/subscriber2/main.go
 
 !.gitignore
@@ -9,3 +12,4 @@
 !go.mod
 !go.sum
 !README.md
+!LICENSE
